@@ -1,0 +1,47 @@
+:root{
+  --rem-1: 0.25rem;
+  --rem-2: 0.5rem;
+  --rem-3: 1rem;
+  --rem-4: 2rem;
+  --rem-5: 3rem;
+}
+
+/* display */
+.d-flex{display: flex}.d-block{display: block}
+/* margin */
+.m-1 {margin: var(--rem-1)}.m-2 {margin: var(--rem-2)}.m-3 {margin: var(--rem-3)}.m-4 {margin: var(--rem-4)}.m-5 {margin: var(--rem-5)}
+
+/* margin top */
+.mt-1 {margin-top: var(--rem-1)}.mt-2 {margin-top: var(--rem-2)}.mt-3 {margin-top: var(--rem-3)}.mt-4 {margin-top: var(--rem-4)}.mt-5 {margin-top: var(--rem-5)}
+/* margin bottom */
+.mb-1 {margin-bottom: var(--rem-1)}.mb-2 {margin-bottom: var(--rem-2)}.mb-3 {margin-bottom: var(--rem-3)}.mb-4 {margin-bottom: var(--rem-4)}.mb-5 {margin-bottom: var(--rem-5)}
+/* margin left */
+.ms-1 {margin-left: var(--rem-1)}.ms-2 {margin-left: var(--rem-2)}.ms-3 {margin-left: var(--rem-3)}.ms-4 {margin-left: var(--rem-4)}.ms-5 {margin-left: var(--rem-5)}
+/* margin rigt */
+.me-1 {margin-right: var(--rem-1)}.me-2 {margin-right: var(--rem-2)}.me-3 {margin-right: var(--rem-3)}.me-4 {margin-right: var(--rem-4)}.me-5 {margin-right: var(--rem-5)}
+
+/* padding */
+.p-1 {padding: var(--rem-1)}.p-2 {padding: var(--rem-2)}.p-3 {padding: var(--rem-3)}.p-4 {padding: var(--rem-4)}.p-5 {padding: var(--rem-5)}
+/* padding top */
+.pt-1 {padding-top: var(--rem-1)}.pt-2 {padding-top: var(--rem-2)}.pt-3 {padding-top: var(--rem-3)}.pt-4 {padding-top: var(--rem-4)}.pt-5 {padding-top: var(--rem-5)}
+/* padding bottom */
+.pb-1 {padding-bottom: var(--rem-1)}.pb-2 {padding-bottom: var(--rem-2)}.pb-3 {padding-bottom: var(--rem-3)}.pb-4 {padding-bottom: var(--rem-4)}.pb-5 {padding-bottom: var(--rem-5)}
+/* padding left */
+.ps-1 {padding-left: var(--rem-1)}.ps-2 {padding-left: var(--rem-2)}.ps-3 {padding-left: var(--rem-3)}.ps-4 {padding-left: var(--rem-4)}.ps-5 {padding-left: var(--rem-5)}
+/* padding rigt */
+.pe-1 {padding-right: var(--rem-1)}.pe-2 {padding-right: var(--rem-2)}.pe-3 {padding-right: var(--rem-3)}.pe-4 {padding-right: var(--rem-4)}.pe-5 {padding-right: var(--rem-5)}
+
+/* width (%) */
+.w-30{width: 30%}.w-70{width: 70%}
+
+/* justify-content */
+.j-content-start{justify-content: start}.j-content-end{justify-content: end}
+
+/* font style */
+.f-style-italic{font-style: italic}
+
+/* text-align */
+.text-start{text-align: start}.text-center{text-align: center}.text-end{text-align: end}
+
+/* list-style */
+.l-style-none{list-style: none}

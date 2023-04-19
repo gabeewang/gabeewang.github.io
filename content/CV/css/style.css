@@ -1,0 +1,128 @@
+:root {
+    /* font size(fs) */
+    --fs-xxl: 24pt;
+    --fs-xl: 18pt;
+    --fs-lg: 14pt;
+    --fs-md: 12pt;
+    --fs-sm: 10pt;
+
+    --cl-black: #1A1A1F;
+    --cl-gray: #6C757D;
+    --cl-red: #DC3545;
+    --cl-orange: #FD7E14;
+}
+
+/* RWD */
+@media only screen and (max-width: 576px) {
+    #social-link a {
+        display: block;
+        margin-top: 0.5rem
+    }
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, DFKai-sb;
+    color: var(--cl-black)
+}
+
+p {
+    margin: 0 auto
+}
+
+a {
+    color: var(--cl-black);
+    text-decoration: none
+}
+
+ul li a {
+    font-size: var(--fs-lg);
+}
+
+ul li ul {
+    padding: 1.5rem 1rem;
+    font-size: var(--fs-md);
+    list-style: none
+}
+
+ul li ul li {
+    display: flex;
+    padding: 0.5rem 0;
+    line-height: 18pt;
+}
+
+#container {
+    padding: 2rem 2rem 4rem 2rem
+}
+
+#title {
+    text-align: center;
+    font-size: var(--fs-xxl);
+    font-weight: bolder;
+
+}
+
+#identity {
+    text-align: center;
+    color: var(--cl-red)
+}
+
+#social-link {
+    text-align: center;
+
+}
+
+#social-link a {
+    margin-left: 0.5rem
+}
+
+
+/* class selector */
+
+#Eduction .content {
+    padding: 0.5rem 2rem 2rem 2rem
+}
+
+#Eduction .item {
+    justify-content: start;
+    margin-top: 1.5rem
+}
+
+#HonorAward .item {
+    padding: 1.5rem 0
+}
+
+#Publication .content {}
+
+.separate {
+    display: flex;
+    align-items: center
+}
+
+.separate .separate-label {
+    margin: 0 10px;
+    font-size: var(--fs-xl);
+}
+
+.separate-line {
+    flex: 1;
+    height: 1px;
+    background-color: var(--cl-black)
+}
+
+.school-name {
+    font-size: var(--fs-lg);
+    color: var(--cl-orange)
+}
+
+.degress-name {}
+
+.year {
+    color: var(--cl-gray);
+    padding-right: 0.5rem
+}
+
+.id {
+    color: var(--cl-gray);
+    padding-right: 0.5rem
+}
