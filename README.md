@@ -1,4 +1,4 @@
-# Repositories of WJW's website
+# Github Pages project of WJW
 
 #### 網站建置目的：
 1. 作者把需要公開的文件，上傳至網際網路提供觀看。
